@@ -117,6 +117,7 @@ header {
     height: 35px;
     padding: 7px 20px;
     color: var(--wc);
+    text-transform: uppercase;
 }
 .menubar .login-menu {
     background: linear-gradient(102.92deg, #1B1285 -36.3%, #643088 100%);

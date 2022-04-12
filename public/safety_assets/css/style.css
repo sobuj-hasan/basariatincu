@@ -827,5 +827,33 @@ hr.details-divider{
 }
 /* ABOUT US PAGE CSS END */
 
+/* LOGIN REGISTER PART START */
+#registration-section{
+    background: var(--gc);
+}
+.sign-up{
+    background: var(--pc);
+    color: var(--wc);
+}
+.sign-up h2{
+    color: var(--wc);
+}
+.sign-up button{
+    background: var(--wc);
+    color: var(--pc);
+    padding: 12px 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.sign-up a {
+    color: var(--wc);
+}
+.sign-up input{
+    font-weight: 500;
+    font-size: 17px;
+    outline: none;
+}
+/* LOGIN REGISTER PART END */
+
 
 

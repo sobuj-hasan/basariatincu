@@ -79,6 +79,9 @@
                             <li>
                                 <a href="{{ route('login') }}">Login</a> / 
                             </li>
+                            <li>
+                                &nbsp;<a href="{{ route('register') }}">Register</a>
+                            </li>
                         @else
                             <li>
                                 @if (Auth::user()->role)

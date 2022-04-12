@@ -1,4 +1,4 @@
-@extends('layouts.safetyapp')
+@extends('layouts.app')
 @section('title', 'Login')
 @section('body')
      <!-- Login part start -->
@@ -24,8 +24,10 @@
                                     <span class="text-danger">{{ $message }}</span>
                                 @enderror
                             </div>
-                            <button type="submit" class="btn btn-block mb-2">@lang('home.login')</button>
-                            <p class="text-start second-para">@lang('home.Do_you_have_an_account') <a href="{{ route('register') }}"><strong>@lang('home.signup')</strong></a></p>
+                            <div>
+                                <button type="submit" class="btn btn-block mb-2">@lang('home.login')</button>
+                            </div>
+                            <p class="text-start second-para mt-4">@lang('home.Do_you_have_an_account') <a href="{{ route('register') }}"><strong>@lang('home.signup')</strong></a></p>
                         </form>
                     </div>
                 </div>
